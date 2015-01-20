@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :company_details
+
+  resources :user_profiles
+
   resources :users
 
   # The priority is based upon order of creation: first created -> highest priority.
