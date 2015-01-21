@@ -1,6 +1,7 @@
 class CreateCompanyDetails < ActiveRecord::Migration
   def change
     create_table :company_details do |t|
+      t.integer :user_id
       t.string :company_name
       t.string :company_type
       t.string :pan
