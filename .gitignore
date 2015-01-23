@@ -14,3 +14,8 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+vendor/assets/javascripts/.keep
+vendor/assets/stylesheets/.keep
+Gemfile.lock
+db/schema.rb
+config/database.yml
