@@ -20,26 +20,36 @@
   <!-- left column -->
   <div class="col-lg-6 col-md-6 col-sm-6">
     <!-- product Image and Zoom -->
-    <div class="main-image sp-wrap col-lg-12 no-padding">
-      <a href="product/t1.jpeg">
-        <%#= image_tag "zoom/zoom1.jpg", :class => "img-responsive" %>
-        <img src="images/zoom/zoom1.jpg" class="img-responsive" alt="img">
+    <div class="col-lg-12 no-padding">
+      <a href="zoom/zoom1.jpg">
+        <%= image_tag "zoom/images1.jpg", :class => "img-responsive", :size => "628x786" %>
+        <!--<img src="images/zoom/zoom1.jpg" class="img-responsive" alt="img">-->
       </a>
-      <a href="product/t1.jpeg">
+      <a href="zoom/zoom1.jpg">
 
         <%#= image_tag "zoom/zoom1.jpg", :class => "img-responsive"%>
-        <img src="images/zoom/zoom2.jpg" class="img-responsive" alt="img">
+        <!--<img src="images/zoom/zoom2.jpg" class="img-responsive" alt="img">-->
       </a>
-      <a href="product/t1.jpeg">
+      <a href="zoom/zoom1.jpg">
         <%#= image_tag "zoom/zoom1.jpg", :class => "img-responsive" %>
-        <img src="images/zoom/zoom3.jpg" class="img-responsive" alt="img">
+        <!--<img src="images/zoom/zoom3.jpg" class="img-responsive" alt="img">-->
       </a>
     </div>
   </div><!--/ left column end -->
 
+  <!--&lt;!&ndash; left column &ndash;&gt;-->
+  <!--<div class="col-lg-6 col-md-6 col-sm-6">-->
+    <!--&lt;!&ndash; product Image and Zoom &ndash;&gt;-->
+    <!--<div class="main-image sp-wrap col-lg-12 no-padding">-->
+      <!--<a href="/images/zoom/zoom1hi.jpg"><img src="zoom/zoom1.jpg" class="img-responsive" alt="img"></a>-->
+      <!--<a href="/images/zoom/zoom2hi.jpg"><img src="zoom/zoom2.jpg" class="img-responsive" alt="img"></a>-->
+      <!--<a href="/images/zoom/zoom3hi.jpg"><img src="zoom/zoom3.jpg" class="img-responsive" alt="img"></a>-->
+    <!--</div>-->
+  <!--</div>&lt;!&ndash;/ left column end &ndash;&gt;-->
+
 
   <!-- right column -->
-  <div class="col-lg-6 col-md-6 col-sm-5">
+  <div class="col-lg-6 col-md-6 col-sm-6">
 
     <h1 class="product-title"> Lorem ipsum dolor sit amet</h1>
     <h3 class="product-code">Product Code : DEN1098</h3>
@@ -62,31 +72,31 @@
     </div>
     <!--/.color-details-->
 
-    <div class="productFilter productFilterLook2">
-      <div class="filterBox">
-        <select>
-          <option value="strawberries" selected>Quantity</option>
-          <option value="mango">1</option>
-          <option value="bananas">2</option>
-          <option value="watermelon">3</option>
-          <option value="grapes">4</option>
-          <option value="oranges">5</option>
-          <option value="pineapple">6</option>
-          <option value="peaches">7</option>
-          <option value="cherries">8</option>
-        </select>
-      </div>
-      <div class="filterBox">
-        <select>
-          <option value="strawberries" selected>Size</option>
-          <option value="mango">XL</option>
-          <option value="bananas">XXL</option>
-          <option value="watermelon">M</option>
-          <option value="apples">L</option>
-          <option value="apples">S</option>
-        </select>
-      </div>
-    </div>
+    <!--<div class="productFilter productFilterLook2">-->
+      <!--<div class="filterBox">-->
+        <!--<select>-->
+          <!--<option value="strawberries" selected>Quantity</option>-->
+          <!--<option value="mango">1</option>-->
+          <!--<option value="bananas">2</option>-->
+          <!--<option value="watermelon">3</option>-->
+          <!--<option value="grapes">4</option>-->
+          <!--<option value="oranges">5</option>-->
+          <!--<option value="pineapple">6</option>-->
+          <!--<option value="peaches">7</option>-->
+          <!--<option value="cherries">8</option>-->
+        <!--</select>-->
+      <!--</div>-->
+      <!--<div class="filterBox">-->
+        <!--<select>-->
+          <!--<option value="strawberries" selected>Size</option>-->
+          <!--<option value="mango">XL</option>-->
+          <!--<option value="bananas">XXL</option>-->
+          <!--<option value="watermelon">M</option>-->
+          <!--<option value="apples">L</option>-->
+          <!--<option value="apples">S</option>-->
+        <!--</select>-->
+      <!--</div>-->
+    <!--</div>-->
     <!-- productFilter -->
 
     <div class="cart-actions">
@@ -178,3 +188,9 @@
   </div><!--/ right column end -->
 
 </div>
+
+<script>
+    paceOptions = {
+        elements: true
+    };
+</script>
